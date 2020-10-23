@@ -2,10 +2,12 @@ import random
 from movie_rec_app.movies import MOVIES
 
 
-def random_recommender(num):
+def random_recommender(num, user_input):
 
     """Here is where we take the user input from Flask
-    and use it as an input to our NMF model."""
+    and use it as an input to our NMF model.
+
+    Note: user_input argument is currently not used."""
 
     ### NOTE: the following is complete pseudocode
     ### (we haven't built the functions yet)
