@@ -1,0 +1,18 @@
+MOVIES = [
+    "Eating Spearmint Every Day: The Documentary",
+    "Supporting Vectors Every Day: The Documentary",
+    "The Man Who Speared the Mint",
+    "The Legend of the Spear and the Mint",
+    "Minty & Britney Spears",
+    "Harry Potter und der prickelnde Minzegeschmack",
+    "RegEx: A Regular Adventure",
+    "Docker: Unleashed",
+    "die Grüne-Minze-Vektormaschinen",
+    "Flask Fun",
+    "Django Girls Unchained",
+    "The Legend of the Minty Vectors",
+    "Tiger King: Murder, Mayhem, and Madness",
+    "Chef's Table: Spearmint Edition",
+    "La Corona",
+    "Zoom!",
+]
