@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form action="/results">
+  <section class="main-splash">
+
+    <h3 class="merp">Enter some random movies and ratings.</h3>
+    <p class="merp"><i>(I haven't been programmed to do data science yet).</i></p>
+
+
+    <div class="row">
+      <div class="col">
+        <input type="text" class="form-control" name="movie1" placeholder="type anything." required>
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" name="rating1" placeholder="1 - 5" required>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <input type="text" class="form-control" name="movie2" placeholder="type anything." required>
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" name="rating2" placeholder="1 - 5" required>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <input type="text" class="form-control" name="movie3" placeholder="type anything." required>
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" name="rating3" placeholder="1 - 5" required>
+      </div>
+    </div>
+
+    <div class="row">
+      <label for="inputState">Do you like puns?</label>
+      <select id="inputState" name="pun" class="form-control">
+        <option selected>Yes</option>
+        <option>No</option>
+      </select>
+    </div>
+
+    <div class="button-container">
+      <button type="submit" class="btn btn-danger btn-lg m-3">Submit</button>
+    </div>
+
+
+  </section>
+</form>
+
+
+
+{% endblock %}
