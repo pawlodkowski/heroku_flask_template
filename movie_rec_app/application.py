@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, flash
-from recommender import random_recommender
+from movie_rec_app.recommender import random_recommender
 
 app = Flask(__name__)
 app.secret_key = b'need_this_for_message_flashing'
