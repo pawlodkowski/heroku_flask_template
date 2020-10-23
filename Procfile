@@ -1,1 +1,1 @@
-web: gunicorn gettingstarted.app:app
+web: gunicorn movie_rec_app.application:app

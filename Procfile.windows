@@ -1,1 +1,1 @@
-web: python gettingstarted/app.py 
+web: python movie_rec_app/application.py 
