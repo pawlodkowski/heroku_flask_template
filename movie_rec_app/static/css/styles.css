@@ -9,9 +9,9 @@
 }
 
 .main-splash {
-  background-color: #62003C;
+  background-color: #62003c;
   height: 100vh;
-  color: #FFE4F8;
+  color: #ffe4f8;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +19,7 @@
 }
 
 #highlight {
-  color: #00C9B6;
+  color: #00c9b6;
 }
 
 .button-container {
@@ -45,18 +45,18 @@
   font-weight: bold;
   font-style: italic;
   margin-bottom: 20px;
-  color: #C25545;
+  color: #c25545;
 }
 
 .pun-success {
   font-weight: bold;
   font-style: italic;
   margin-bottom: 20px;
-  color: #00E2D0;
+  color: #00e2d0;
 }
 
 .row {
   margin-bottom: 10px;
   display: flex;
-  justify-content: center
+  justify-content: center;
 }
